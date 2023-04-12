@@ -1,3 +1,4 @@
+import React from "react";
 import Tilt from 'react-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
@@ -15,9 +16,9 @@ const ProjectCard = ({ index, name, description, image, live_link}) => {
         scale: 1,
         speed: 450,
       }}
-      className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+      className='bg-tertiary p-5 rounded-2xl sm:w-[360px] sm:h-[470px] w-full'
     >
-      <div className='relative w-full h-[250px]'>
+      <div className='relative w-full h-[230px]'>
         <img
           src={image}
           alt='project_image'
@@ -52,8 +53,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My work</p>
-        <h2 className={styles.sectionHeadText}>Projects.</h2>
+        <p className={`${styles.sectionSubText}`}>My work</p>
+        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
       <div className="w-full flex">
