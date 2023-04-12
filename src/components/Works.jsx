@@ -10,6 +10,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 const ProjectCard = ({ index, name, description, image, live_link}) => {
   return (
+    <motion.div variants={fadeIn("", "", index * 0.5, 0.75)}>
     <Tilt
       options={{
         max: 45,
@@ -45,6 +46,7 @@ const ProjectCard = ({ index, name, description, image, live_link}) => {
       </div>
 
     </Tilt>
+  </motion.div>
   )
 }
 
@@ -59,8 +61,7 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
-        >
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"        >
           Here are my work websites from clients as well as a couple of my own personal projects. On work projects I had the pleasure of working with many different clients as seen in my projects section below.
 
         </motion.p>
