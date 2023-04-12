@@ -61,7 +61,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I’ve had the privilege of working at a Custom Web Development, Design, Marketing, Application Building/Integration agency called Volatile Studios. At Volatile Studios I am a Web Developer and UI/UX Designer working with custom web development, design, application building/integration, multimedia, apps, content management systems, mobile interactivity and ecommerce platforms, I had the pleasure of working with many different clients as seen in my projects section below.
+          Here are my work websites from clients as well as a couple of my own personal projects. On work projects I had the pleasure of working with many different clients as seen in my projects section below.
 
         </motion.p>
       </div>

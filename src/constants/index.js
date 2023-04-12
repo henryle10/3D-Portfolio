@@ -118,7 +118,6 @@ const experiences = [
     points: [
       "At Volatile Studios I am a Web Developer and UI/UX Designer working with custom web development, design, application building/integration, multimedia, apps, content management systems, mobile interactivity and ecommerce platforms.",
       "Learned many new different technologies while also managing multiple projects at the same time.",
-      "I had the pleasure of working with many different clients as seen in my portfolio website.",
     ],
   },
 ];
