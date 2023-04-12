@@ -1,6 +1,7 @@
 import React from "react";
 import Tilt from 'react-tilt';
 import { motion } from 'framer-motion';
+
 import { styles } from '../styles';
 import { live } from '../assets';
 import { SectionWrapper } from '../hoc';
@@ -9,7 +10,6 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 const ProjectCard = ({ index, name, description, image, live_link}) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
     <Tilt
       options={{
         max: 45,
@@ -45,7 +45,6 @@ const ProjectCard = ({ index, name, description, image, live_link}) => {
       </div>
 
     </Tilt>
-  </motion.div>
   )
 }
 
