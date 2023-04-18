@@ -121,8 +121,8 @@ const Contact = () => {
           </button>
         </form>
         <div className="h-auto flex mt-5 justify-end">
-          <a className="w-10" href="https://github.com/henryle10" target="blank_"><img  src={github} alt="" /></a>
-          <a className="w-10" href="https://www.linkedin.com/in/henryle10/" target="blank_"><img  src={linkedin} alt="" /></a>
+          <a className="w-10" href="https://github.com/henryle10" target="_blank"><img  src={github} alt="" /></a>
+          <a className="w-10" href="https://www.linkedin.com/in/henryle10/" target="_blank"><img  src={linkedin} alt="" /></a>
         </div>
       </motion.div>
 
