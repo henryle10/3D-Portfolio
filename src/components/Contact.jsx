@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { github, linkedin } from "../assets/index.js";
 
 const Contact = () => {
   const formRef = useRef();
@@ -119,6 +120,10 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+        <div className="h-auto flex mt-5 justify-end">
+          <a className="w-10" href="https://github.com/henryle10" target="blank_"><img  src={github} alt="" /></a>
+          <a className="w-10" href="https://www.linkedin.com/in/henryle10/" target="blank_"><img  src={linkedin} alt="" /></a>
+        </div>
       </motion.div>
 
       <motion.div
