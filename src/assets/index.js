@@ -29,6 +29,7 @@ import diamond from "./diamond-rentals.png";
 import apres from "./apres.png";
 import rocketship from "./rocketship.png";
 import zeus from "./zeus.png";
+import signandrent from "./signandrent.png"
 
 
 export {
@@ -59,5 +60,6 @@ export {
   diamond,
   apres,
   rocketship,
+  signandrent,
   zeus,
 };

@@ -21,6 +21,7 @@ import {
   apres,
   rocketship,
   zeus,
+  signandrent,
 } from "../assets";
 
 export const navLinks = [
@@ -158,6 +159,13 @@ const projects = [
       "Front-End Developer designated to draft and build out both Diamond owned websites. One being equipment and the other being event rental services.",
     image: diamond,
     live_link: "https://diamondrental.com/",
+  },
+  {
+    name: "Sign and Rent",
+    description:
+      "Constructed a unique, interactive and dynamic interface for Sign and rent which is also one of the companies owned by Volatile Studios.",
+    image: signandrent,
+    live_link: "https://signandrent.com/",
   },
   {
     name: "Après",
