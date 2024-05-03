@@ -174,13 +174,6 @@ const projects = [
     image: apres,
     live_link: "https://apresparty.com/",
   },
-  {
-    name: "Rocket Ship",
-    description:
-      "Rocket Ship is a randomly generated social card game, up to 10 players allowed through different IP addresses. Utilizing the functionality of object oriented programming and version control.",
-    image: rocketship,
-    live_link: "http://18.188.37.161/HowToPlay",
-  },
 ];
 
 export { technologies, experiences, projects };
