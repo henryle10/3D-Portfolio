@@ -19,6 +19,7 @@ import {
   bisa,
   diamond,
   apres,
+  bright,
   rocketship,
   zeus,
   signandrent,
@@ -131,6 +132,13 @@ const projects = [
       "Designed and developed an ecommerce website with complex components such as intricate sliding animations using vanilla JS. Adopted a third-party software BigCommerce for our client's shop page.",
     image: droptonic,
     live_link: "https://droptonic.com/",
+  },
+  {
+    name: "Bright Event Rentals",
+    description:
+      " Created an intuitive drag-and-drop customizable canvas that integrates our extensive product database, allowing for real-time manipulation and arrangement of products to suit individual preferences and design ideas.",
+    image: bright,
+    live_link: "https://bright.com/",
   },
   {
     name: "California LTAP",

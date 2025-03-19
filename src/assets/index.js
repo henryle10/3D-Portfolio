@@ -27,6 +27,7 @@ import evg from "./evg.png";
 import bisa from "./bisa.png";
 import diamond from "./diamond-rentals.png";
 import apres from "./apres.png";
+import bright from "./bright.png";
 import rocketship from "./rocketship.png";
 import zeus from "./zeus.png";
 import signandrent from "./signandrent.png"
@@ -59,6 +60,7 @@ export {
   bisa,
   diamond,
   apres,
+  bright,
   rocketship,
   signandrent,
   zeus,
